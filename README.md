@@ -4,7 +4,7 @@ Uma aplicação web desenvolvida com HTML, CSS e JavaScript, criada para apresen
 
 ## Demonstração
 
-[ Clique aqui para acessar o AutoFix ]()
+[ Clique aqui para acessar o AutoFix ]( https://caique-torres.github.io/AutoFix/)
 
 ## Funcionalidades
 
