@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="AutoFix: serviços de manutenção automotiva, revisão, troca de óleo, freios e suspensão. Solicite seu orçamento.">
+
+    <meta name="theme-color" content="#10151c">
+
+    <title>AutoFix | Oficina Mecânica Automotiva</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#inicio" class="logo">
+                <i class="fa-solid fa-gear"></i>
+                <span>Auto<span class="logo-red">Fix</span></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                    aria-controls="nav-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#orcamento">Contato</a>
+
+                <a href="#" class="btn btn-red whatsapp-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <span class="eyebrow">
+                    <i class="fa-solid fa-wrench"></i>
+                    Mecânica automotiva
+                </span>
+
+                <h1>
+                    Seu carro em
+                    <span>boas mãos!</span>
+                </h1>
+
+                <p>
+                    Serviços de manutenção, revisão e reparos
+                    com profissionais qualificados e equipamentos modernos.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#orcamento" class="btn btn-red">
+                        Agende seu serviço
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#sobre" class="btn btn-outline">
+                        <i class="fa-regular fa-circle-play"></i>
+                        Conheça nossa oficina
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- DESTAQUES DOS SERVIÇOS -->
+        <section class="service-highlights" id="servicos">
+            <div class="container highlights-grid">
+
+                <article class="highlight">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+
+                    <div>
+                        <h3>Revisão Geral</h3>
+                        <p>Mantenha seu carro seguro</p>
+                    </div>
+                </article>
+
+                <article class="highlight">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-oil-can"></i>
+                    </div>
+
+                    <div>
+                        <h3>Troca de Óleo</h3>
+                        <p>Mais desempenho para o motor</p>
+                    </div>
+                </article>
+
+                <article class="highlight">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+
+                    <div>
+                        <h3>Freios e Suspensão</h3>
+                        <p>Mais segurança ao dirigir</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE A AUTOFIX -->
+        <section class="about section" id="sobre">
+            <div class="container about-grid">
+
+                <div class="about-content">
+
+                    <span class="section-label">Sobre a AutoFix</span>
+
+                    <h2>Cuidado e confiança para seguir em frente.</h2>
+
+                    <p>
+                        Com anos de experiência no mercado automotivo,
+                        oferecemos serviços de qualidade, atendimento
+                        transparente e soluções para cuidar do seu veículo.
+                    </p>
+
+                    <p>
+                        Nossa equipe trabalha para proporcionar mais
+                        segurança, desempenho e tranquilidade em cada viagem.
+                    </p>
+
+                    <a href="#orcamento" class="btn btn-red">
+                        Saiba mais
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1000&q=85"
+                        alt="Veículo em uma oficina automotiva"
+                        loading="lazy">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- GALERIA DE SERVIÇOS -->
+        <section class="gallery section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">Nosso trabalho</span>
+                    <h2>Estrutura e cuidado em cada serviço</h2>
+                    <p>
+                        Conheça um pouco do universo AutoFix e dos
+                        serviços realizados em nossa oficina.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <figure class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=80"
+                            alt="Manutenção de veículo"
+                            loading="lazy">
+
+                        <figcaption>
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            Manutenção automotiva
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpK2wNaba9ydOQSfao09XYkWT6E7_O7KE2BUvy8EX_Cw&s=10"
+                            alt="Automóvel em ambiente de oficina"
+                            loading="lazy">
+
+                        <figcaption>
+                            <i class="fa-solid fa-car-side"></i>
+                            Cuidado com seu veículo
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZOiz8THJkqtTIc208fUOggO2UEoPs-E2otQj5xrjZzg&s=10"
+                            alt="Detalhes de automóvel"
+                            loading="lazy">
+
+                        <figcaption>
+                            <i class="fa-solid fa-gears"></i>
+                            Qualidade nos detalhes
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FORMULÁRIO DE ORÇAMENTO -->
+        <section class="quote section" id="orcamento">
+            <div class="container quote-grid">
+
+                <div class="quote-content">
+                    <span class="section-label">Entre em contato</span>
+
+                    <h2>Solicite um orçamento</h2>
+
+                    <p>
+                        Preencha os dados e envie sua solicitação.
+                        Nossa equipe poderá entrar em contato para
+                        entender melhor o que seu veículo precisa.
+                    </p>
+
+                    <div class="quote-benefit">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Atendimento personalizado
+                    </div>
+
+                    <div class="quote-benefit">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Comunicação transparente
+                    </div>
+
+                    <div class="quote-benefit">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Solicitação prática pelo WhatsApp
+                    </div>
+                </div>
+
+
+                <form class="quote-form" id="quote-form">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input
+                                type="text"
+                                id="nome"
+                                name="nome"
+                                placeholder="Seu nome"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input
+                                type="tel"
+                                id="telefone"
+                                name="telefone"
+                                placeholder="(11) 99999-9999"
+                                required>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="veiculo">Veículo</label>
+                        <input
+                            type="text"
+                            id="veiculo"
+                            name="veiculo"
+                            placeholder="Ex.: modelo e ano do carro"
+                            required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="servico">Serviço desejado</label>
+
+                        <select id="servico" name="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="Revisão geral">Revisão geral</option>
+                            <option value="Troca de óleo">Troca de óleo</option>
+                            <option value="Freios">Freios</option>
+                            <option value="Suspensão">Suspensão</option>
+                            <option value="Diagnóstico automotivo">
+                                Diagnóstico automotivo
+                            </option>
+                            <option value="Outro serviço">Outro serviço</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="mensagem">Detalhes adicionais</label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="3"
+                            placeholder="Conte um pouco sobre o que precisa (opcional)"></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-red btn-submit">
+                        Enviar solicitação
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </button>
+
+                    <p class="form-note">
+                        A solicitação será preparada no WhatsApp.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- FAIXA DE CONTATO -->
+        <section class="contact-strip">
+            <div class="container contact-strip-content">
+
+                <div>
+                    <h2>Seu carro merece esse cuidado.</h2>
+                    <p>Fale com a AutoFix e solicite seu orçamento.</p>
+                </div>
+
+                <a href="#" class="btn btn-red whatsapp-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Fale conosco
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <a href="#inicio" class="logo footer-logo">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Auto<span class="logo-red">Fix</span></span>
+                </a>
+
+                <p>
+                    Cuidado automotivo, confiança e qualidade
+                    para acompanhar você em todos os caminhos.
+                </p>
+
+                <div class="social-links">
+                    <a href="#" class="social-placeholder"
+                       aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="social-placeholder"
+                       aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="social-placeholder"
+                       aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+                <span>
+                    © <span id="current-year"></span> AutoFix.
+                    Todos os direitos reservados.
+                </span>
+
+                <a href="#inicio">Voltar ao início ↑</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- BOTÃO FLUTUANTE -->
+    <a href="#"
+       class="whatsapp-float whatsapp-link"
+       aria-label="Solicitar orçamento pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
